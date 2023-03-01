@@ -22,6 +22,13 @@ html {
 
 
 }
+a {
+	color: var(--color-blue-dark-1);
+}
+
+li {
+	font-size: 0.8rem;
+}
 
 * {
 	box-sizing: border-box;
@@ -36,14 +43,14 @@ body {
 
 .wrapper {
 	margin: 0 auto;
-	max-width: 70rem;
+	max-width: 80rem;
 	background-color: var(--color-gray-light-2);
 	display: flex;
 	box-shadow: 0px 0px 15px 4px #b3b3b3;
 }
 
 .intro {
-	flex: 0 0 250px;
+	flex: 0 0 350px;
 	background-color: var(--color-gray-light-1);
 	box-shadow: 5px 0px 15px 0px #b3b3b3;
 	z-index: 5;
@@ -67,7 +74,7 @@ body {
 	transform: skewY(-5deg);
 }
 .photo img {
-	width: 80%;
+	width: 50%;
 	border-radius: 50%;
 }
 .bio .name {
@@ -78,7 +85,7 @@ body {
 	margin-top: 1rem;
 }
 .bio .profession {
-	font-size: 1rem;
+	font-size: 1.2rem;
 	text-align: center;
 	color: var(--color-gray-light-1);
 	margin: 0;
@@ -353,6 +360,15 @@ body {
 }
 .favor-list > li > span {
 	letter-spacing: 1px;
+}
+
+.msize {
+	padding-right: 0.1rem;
+}
+
+.smallfonts {
+	font-size: 1rem;
+	padding: 0px;
 }
 
 @keyframes circle {
