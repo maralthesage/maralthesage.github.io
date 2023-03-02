@@ -6,8 +6,8 @@
 	--color-gray-dark-2: #737373;
 	--color-gray-dark-3: #9a9a9a;
 	--color-blue-dark-1: #00387f;
-	--color-tiffany: #FFB4A2;
-	--profile-theme: #6D6875;
+	--color-tiffany: #00C6FF;
+	--profile-theme: #0078FF;
 	--timeline-circle-theme: #14253e;
 
 	--pgbar-length: 100%;
@@ -92,7 +92,7 @@ body {
 }
 
 .intro-section {
-	padding: 0 1rem;
+	padding: 1rem 1.5rem;
 	color: var(--color-gray-dark-1);
 }
 .intro-section .title {
@@ -390,10 +390,12 @@ body {
 	.intro, .detail {
 		flex: 0 0 100%;
 		box-shadow: none;
+
 	}
-	.intro-section {
+	/* .intro-section {
 		padding: 0 2rem;
-	}
+
+	} */
 	.profile {
 		margin-bottom: 1rem;
 	}
